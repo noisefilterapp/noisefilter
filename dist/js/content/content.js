@@ -1,0 +1,1 @@
+function handleError(e){console.error(`Error: ${e}`)}function injectStyle(){const e=document.createElement("link");e.rel="stylesheet",e.type="text/css",e.href=browser.extension.getURL("../../style/css/content.css"),document.getElementsByTagName("head")[0].appendChild(e)}browser.runtime.sendMessage({re:"init"}).then(e=>{!e.inject||e.ext||e.domain||injectStyle()},handleError);

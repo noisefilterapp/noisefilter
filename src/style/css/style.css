@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+/* Popup Dimensions */
+/* App colours */
+/* General adjustments */
+body {
+  width: 300px;
+  background-color: #ffffff; }
+
+label {
+  color: #737373; }
+
+#logo {
+  color: #8c67ef;
+  font-family: 'Righteous', sans-serif; }
+
+#switchLabel {
+  padding-left: 3.5rem;
+  padding-top: 0.1rem;
+  font-family: 'Lato', sans-serif; }
+
+#logoPauseSection {
+  padding: 18px 12px; }
+
+#switchSection {
+  padding: 18px 12px; }
+
+#fieldTooltip {
+  margin-bottom: 0; }
+
+.container {
+  margin-right: 0; }
+
+.is-divider {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 0.05rem solid #ffffff;
+  border-top-color: #d7d7db; }
+
+.column {
+  padding-top: 0;
+  padding-bottom: 0; }
+
+.field:not(:last-child) {
+  margin-bottom: 0; }
+
+.hideIcon {
+  display: none; }
+
+.hoverIcon {
+  transition: stroke 0.25s ease-in-out; }
+
+.hoverIcon:hover {
+  stroke: #8c67ef; }

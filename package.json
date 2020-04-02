@@ -6,10 +6,12 @@
     "lint": "web-ext lint --source-dir dist",
     "debug-run": "web-ext run --source-dir dist --firefox=/Applications/'Firefox Developer Edition.app'/Contents/MacOS/firefox-bin --start-url about:debugging#/runtime/this-firefox",
     "ext-run": "web-ext run --source-dir dist --firefox=/Applications/'Firefox Developer Edition.app'/Contents/MacOS/firefox-bin",
+    "ext-build": "web-ext build --source-dir=dist --artifacts-dir=../pkg/",
     "debug": "gulp debug && npm run lint",
     "build": "gulp build",
     "devstart": "npm run debug && npm run debug-run",
-    "start": "npm run build && npm run ext-run"
+    "start": "npm run build && npm run ext-run",
+    "publish": "npm run build && npm run lint && npm run ext-build" 
   },
   "dependencies": {},
   "devDependencies": {

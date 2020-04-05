@@ -1,25 +1,25 @@
 # Noise Filter Web Browser Extension
 
-Noise Filter is an extension for your web browser that hides the comment sections from popular news and social media websites. The extension offers the ability to pause the functionality and whitelist specifi websites. For more information, please visit the [Noise Filter website](https://eff.org) for more information.
+Noise Filter is an extension for your web browser that hides the comment sections from popular news and social media websites. The extension offers the ability to pause the functionality and whitelist specifi websites. For more information, please visit the [Noise Filter website](https://noisefilterapp.github.io/) for more information.
 
 ## How do I install the extension
 
 Noise Filter is currently available for Firefox, Chrome, Edge and Opera:
 
-* **Firefox**: [Noise Filter for Firefox](https://eff.org)
-* **Chrome**: [Noise Filter for Chrome](https://eff.org)
-* **Edge**: [Noise Filter for Edge](https://eff.org)
-* **Opera**: [Noise Filter for Opera](https://eff.org)
+* **Firefox**: [Noise Filter for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/noise-filter/)
+* **Chrome**: Pending Review
+* **Edge**: Pending Review
+* **Opera**: Pending Review
 
 ## Using Noise Filter without installing the web extension
 
-If you wish to use the application without downloading the extension, please feel free to download the [content.css](https://eff.org) file. Most modern web browser allow you to insert custom stylesheets, however, using this method you will not have access to the pause and whitelist features that are packaged with the web extension and there is added setup required.
+If you wish to use the application without downloading the extension, please feel free to download the [content.css](https://github.com/noisefilterapp/noisefilter/blob/master/src/style/css/content.css) file. Most modern web browser allow you to insert custom stylesheets, however, using this method you will not have access to the pause and whitelist features that are packaged with the web extension and there is added setup required.
 
 You are also free to use the stylesheet in a new project if you so wish.
 
 ## Privacy
 
-One of the central aims when developing this application was to ensure that only data required by the application is used and that the data is not accessible to myself or any other third-party. You can find out more by reading the privacy policy for Noise Filter [here](https://eff.org).
+One of the central aims when developing this application was to ensure that only data required by the application is used and that the data is not accessible to myself or any other third-party. You can find out more by reading the [Privacy Policy for Noise Filter](https://noisefilterapp.github.io/privacy.html).
 
 ## What websites are covered by Noise Filter
 
@@ -68,10 +68,6 @@ One of the central aims when developing this application was to ensure that only
 * Yahoo News
 * Youtube
 
-## Contributing to the project
-
-Have a suggestion for improving the extension, found an issue, or just wish to use the application in a new project? The Noise Filter repo can be found [here](https://eff.org).
-
 ## Supporting the developer
 
-This is an ongoing hobby project so any support is completely optional, but will be gratefully received. Visit [here](https://eff.org) for more information on supporting the project.
+This is an ongoing hobby project so any support is completely optional, but will be gratefully received. Visit [here](https://www.buymeacoffee.com/NoiseFilterApp) for more information on supporting the project.

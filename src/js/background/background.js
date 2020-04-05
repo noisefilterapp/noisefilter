@@ -11,6 +11,12 @@ const state = {
   domainPaused: undefined
 }
 
+/* Listen for events from the Tabs API */
+browser.tabs.onUpdated.addListener(handleNewURL)
+
+/* Listen for events from the Popup.js script */
+browser.runtime.onMessage.addListener(handleMessage)
+
 /* Handle messages received from the popup script */
 function handleMessage (request) {
   if (request.re === 'init') {
@@ -31,12 +37,6 @@ function handleMessage (request) {
       })
   }
 }
-
-/* Listen for events from the Tabs API */
-browser.tabs.onUpdated.addListener(handleNewURL)
-
-/* Listen for events from the Popup.js script */
-browser.runtime.onMessage.addListener(handleMessage)
 
 /* Update running state management */
 function setCurrentURL (url) {

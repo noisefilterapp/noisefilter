@@ -11,9 +11,10 @@ const labelChar = {
 }
 
 const tooltipInfo = {
-  coverageActive: 'Domain coverage is active',
-  coveragePaused: 'Domain coverage is paused',
-  noCoverage: 'No coverage for the current domain'
+  coverageActive: 'Comments are blocked',
+  coveragePaused: 'Comment blocking is paused',
+  whitelisted: 'Comments displayed for this website',
+  noCoverage: 'No coverage for the current website'
 }
 
 const iconClass = 'hideIcon'
@@ -91,8 +92,10 @@ function initInfoClick () {
     if (!tooltipState.isDisplayed) {
       if (pausedState.coverage) {
         setTooltipDisplay(tooltipInfo.noCoverage)
-      } else if ((pausedState.ext) || (pausedState.domain)) {
+      } else if (pausedState.ext) {
         setTooltipDisplay(tooltipInfo.coveragePaused)
+      } else if (pausedState.domain) {
+        setTooltipDisplay(tooltipInfo.whitelisted)
       } else {
         setTooltipDisplay(tooltipInfo.coverageActive)
       }

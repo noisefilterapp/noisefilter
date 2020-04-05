@@ -11,6 +11,14 @@ const state = {
   domainPaused: undefined
 }
 
+/* Set initial values for currentURL and currentHostName */
+function initURL (tabs) {
+  extractURL(tabs[0].url)
+}
+
+browser.tabs.query({ currentWindow: true, active: true })
+  .then(initURL, console.error)
+
 /* Listen for events from the Tabs API */
 browser.tabs.onUpdated.addListener(handleNewURL)
 

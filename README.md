@@ -7,7 +7,7 @@ Noise Filter is an extension for your web browser that hides the comment section
 Noise Filter is currently available for Firefox, Chrome, Edge and Opera:
 
 * **Firefox**: [Noise Filter for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/noise-filter/)
-* **Chrome**: Pending Review
+* **Chrome**: [Noise Filter for Chrome](https://chrome.google.com/webstore/detail/amdamikbiepicglbfbgfmjjhemodckim/publish-accepted?authuser=0&hl=en)
 * **Edge**: Pending Review
 * **Opera**: Pending Review
 

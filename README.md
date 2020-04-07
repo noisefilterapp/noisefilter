@@ -8,7 +8,7 @@ Noise Filter is currently available for Firefox, Chrome, Edge and Opera:
 
 * **Firefox**: [Noise Filter for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/noise-filter/)
 * **Chrome**: [Noise Filter for Chrome](https://chrome.google.com/webstore/detail/amdamikbiepicglbfbgfmjjhemodckim/publish-accepted?authuser=0&hl=en)
-* **Edge**: Pending Review
+* **Edge**: [Noise Filter for Edge](https://microsoftedge.microsoft.com/addons/detail/lmepanbjainklihelienhhbgmggmpgoi)
 * **Opera**: Pending Review
 
 ## Using Noise Filter without installing the web extension

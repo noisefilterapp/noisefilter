@@ -1,6 +1,6 @@
 # Noise Filter Web Browser Extension
 
-Noise Filter is an extension for your web browser that hides the comment sections from popular news and social media websites. The extension offers the ability to pause the functionality and whitelist specific websites. For more information, please visit the [Noise Filter website](https://noisefilterapp.github.io/).
+Noise Filter is an extension for your web browser that hides the comment sections from popular news and social media websites. The extension offers the ability to pause the functionality and whitelist specific websites. For more information, please visit the [Noise Filter website](https://noisefilterapp.now.sh/).
 
 ## How do I install the extension
 
@@ -18,7 +18,7 @@ You are also free to use the stylesheet in a new project if you so wish.
 
 ## Privacy
 
-One of the central aims when developing this application was to ensure that only data required by the application is used and that the data is not accessible to myself or any other third-party. You can find out more by reading the [Privacy Policy for Noise Filter](https://noisefilterapp.github.io/privacy).
+One of the central aims when developing this application was to ensure that only data required by the application is used and that the data is not accessible to myself or any other third-party. You can find out more by reading the [Privacy Policy for Noise Filter](https://noisefilterapp.now.sh/privacy).
 
 ## What websites are covered by Noise Filter
 

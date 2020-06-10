@@ -35,6 +35,7 @@ One of the central aims when developing this application was to ensure that only
 * Daily Mail
 * Daily Mirror
 * Engadget
+* Facebook
 * Fox News
 * Gamasutra
 * Gamespot
@@ -59,6 +60,7 @@ One of the central aims when developing this application was to ensure that only
 * Sydney Morning Herald
 * The Telegraph
 * Toronto Sun
+* Twitter
 * Vancouver Sun
 * The Verge
 * Wales Online

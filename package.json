@@ -1,6 +1,6 @@
 {
   "name": "noise-filter",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "lint": "web-ext lint --source-dir src",
@@ -8,7 +8,7 @@
     "ext-run": "web-ext run --source-dir src --firefox=/Applications/'Firefox Developer Edition.app'/Contents/MacOS/firefox-bin",
     "ext-build": "web-ext build --source-dir=src --artifacts-dir=../pkg/",
     "debug": "npm run lint",
-    "devstart": "npm run debug && npm run debug-run",
+    "dev": "npm run debug && npm run debug-run",
     "start": "npm run ext-run",
     "publish": "npm run lint && npm run ext-build"
   },
@@ -22,7 +22,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "web-ext": "^4.0.0",
+    "web-ext": "^4.2.0",
     "webextension-polyfill": "^0.6.0"
   }
 }

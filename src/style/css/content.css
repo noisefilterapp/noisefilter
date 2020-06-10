@@ -127,6 +127,9 @@
 .engadget-article-meta-bar,
 .content-footer__user-actions,
 
+/* Facebook */
+.commentable_item div div ._3w53,
+
 /* Fox News */
 .article-social,
 
@@ -236,6 +239,10 @@ a[href="#comments"],
 
 /* Toronto Sun */
 .comment-count,
+
+/* Twitter */
+[aria-label="Timeline: Conversation"] div div:nth-child(n+4),
+[aria-label="Timeline: Conversation"] div div .css-1dbjc4n.r-1loqt21.r-16y2uox.r-1wbh5a2.r-1ny4l3l.r-1udh08x.r-1j3t67a.r-o7ynqc.r-6416eg,
 
 /* Vancouver Sun */
 .article-actions,

@@ -241,8 +241,10 @@ a[href="#comments"],
 .comment-count,
 
 /* Twitter */
+/* https://twitter.com/cyclingkev/status/1270247648356970497?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1270247648356970497&ref_url=http%3A%2F%2Fotf2.com%2Findex.php%3Fapp%3Dcore%26module%3Dsystem%26controller%3Dembed%26url%3Dhttps%3A%2F%2Ftwitter.com%2Fcyclingkev%2Fstatus%2F1270247648356970497%3Fs%3D20 */
 [aria-label="Timeline: Conversation"] div div:nth-child(n+4),
 [aria-label="Timeline: Conversation"] div div .css-1dbjc4n.r-1loqt21.r-16y2uox.r-1wbh5a2.r-1ny4l3l.r-1udh08x.r-1j3t67a.r-o7ynqc.r-6416eg,
+[aria-label="Timeline: Tweet"] div div:nth-child(n+3),
 
 /* Vancouver Sun */
 .article-actions,

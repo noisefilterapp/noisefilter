@@ -244,9 +244,9 @@ a[href="#comments"],
 .comment-count,
 
 /* Twitter */
-[aria-label="Timeline: Conversation"] div div:nth-child(n+5),
+[aria-label="Timeline: Conversation"] div div:nth-child(n+6),
 [aria-label="Timeline: Conversation"] div div .css-1dbjc4n.r-1loqt21.r-16y2uox.r-1wbh5a2.r-1ny4l3l.r-1udh08x.r-1j3t67a.r-o7ynqc.r-6416eg,
-[aria-label="Timeline: Tweet"] div div:nth-child(n+5),
+[aria-label="Timeline: Tweet"] div div:nth-child(n+6),
 
 /* Vancouver Sun */
 .article-actions,

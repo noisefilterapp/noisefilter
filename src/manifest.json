@@ -3,7 +3,7 @@
     "author": "Rhys Edwards",
     "name": "Noise Filter",
     "description": "Noise Filter is an extension for your web browser that hides the comment sections from popular news and social media websites.",
-    "version": "2.0",
+    "version": "2.1",
     "icons" : {
       "16": "icons/icon16.png",
       "20": "icons/icon20.png",

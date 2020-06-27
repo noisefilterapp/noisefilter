@@ -6,8 +6,8 @@
  * https://noisefilterapp.github.io/
  *
  */
- 
- /* Generic */
+
+/* Generic */
 #comment,
 #comments,
 #blogComments,
@@ -245,7 +245,7 @@ a[href="#comments"],
 
 /* Twitter */
 [aria-label="Timeline: Conversation"] div div:nth-child(n+6),
-[aria-label="Timeline: Conversation"] div div .css-1dbjc4n.r-1loqt21.r-16y2uox.r-1wbh5a2.r-1ny4l3l.r-1udh08x.r-1j3t67a.r-o7ynqc.r-6416eg,
+[aria-label="Timeline: Conversation"] div div:nth-child(n+3) article,
 [aria-label="Timeline: Tweet"] div div:nth-child(n+6),
 
 /* Vancouver Sun */
@@ -277,4 +277,5 @@ a[href="#comments"],
 /* Youtube */
 .ytd-comments,
 .yt-live-chat-renderer {
-  display: none !important; }
+  display: none !important;
+}

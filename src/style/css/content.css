@@ -53,6 +53,7 @@
 .foLDPX,
 .js_share-tools,
 .js_comments-iframe,
+[data-ga*="[[\"Permalink meta\",\"Comment count click\"]]"],
 
 
 /* ABC News */
@@ -128,10 +129,7 @@
 .content-footer__user-actions,
 
 /* Facebook */
-.commentable_item div ._3w53,
-.commentable_item div ._6w1i,
-.commentable_item div div ._3w53,
-.commentable_item div div ._6w1i,
+.cwj9ozl2.tvmbv18p,
 
 /* Fox News */
 .article-social,
@@ -244,9 +242,8 @@ a[href="#comments"],
 .comment-count,
 
 /* Twitter */
-[aria-label="Timeline: Conversation"] div div:nth-child(n+6),
-[aria-label="Timeline: Conversation"] div div:nth-child(n+3) article,
-[aria-label="Timeline: Tweet"] div div:nth-child(n+6),
+[aria-label="Timeline: Conversation"] div div[style*="position: absolute"]:not(:first-child),
+[aria-label="Timeline: Tweet"] div div[style*="position: absolute"]:nth-child(n+3),
 
 /* Vancouver Sun */
 .article-actions,

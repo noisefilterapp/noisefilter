@@ -1,6 +1,6 @@
 {
   "name": "noise-filter",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "private": true,
   "scripts": {
     "lint": "web-ext lint --source-dir src",
@@ -22,7 +22,7 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "web-ext": "^4.2.0",
+    "web-ext": "^5.2.0",
     "webextension-polyfill": "^0.6.0"
   }
 }

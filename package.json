@@ -13,7 +13,7 @@
     "publish": "npm run lint && npm run ext-build"
   },
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
